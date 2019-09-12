@@ -1,0 +1,11 @@
+1. implement facenet and tensorflow-GPU
+2. Download CASIA-WebFace and LFW
+	CASIA link is broken after I download it
+	LWF: http://vis-www.cs.umass.edu/lfw/lfw.tgz
+3. Code is from https://github.com/davidsandberg/facenet
+4. Alignment image to 160*160 using align_dataset_mtcnn.py file
+5. Compare image distance use compare.py file
+6. Train model use train_tripletloss.py file, this file contains a validation part, which can validate dataset after training automaticely.
+7. Validate_on_LFW.py can select any model to do the validation on test data. 
+
+	
